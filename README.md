@@ -1,4 +1,4 @@
-```html
+
 # 运维笔记
 
 
@@ -106,8 +106,8 @@ jps(Java Virtual Machine Process Status Tool)是JDK 1.5提供的一个显示当�
 
 - 查看是否启动
 
-		netstat -tunpl | grep 6379
-		ps -ef | grep redis
+    netstat -tunpl | grep 6379
+    ps -ef | grep redis
 
 > **相关命令**
 redis-server /usr..../redis.conf 启动redis服务，并指定配置文件
@@ -120,12 +120,10 @@ retstat -tunpl|grep 6379 查看redis 默认端口号6379占用情况
 
 	配置了开机自启动了.不用管
 
-​```html
+```html
 <!-- English -->
 <script src="../dist/js/languages/en.js"></script>
 
 <!-- 繁體中文 -->
 <script src="../dist/js/languages/zh-tw.js"></script>
-​```
-
 ```
