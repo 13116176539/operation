@@ -1,5 +1,6 @@
-首先修改本地maven的settings.xml配置,使用maven私有库
-#####在server节点里面添加
+####首先修改本地maven的settings.xml配置,使用maven私有库
+
+##### 在server节点里面添加
     
     <server>   
         <id>nexus-releases</id>    
@@ -12,7 +13,7 @@
         <password>admin123</password>    
     </server>
 
-#####在mirrors节点里面新建
+##### 在mirrors节点里面新建
 
     <mirror>     
         <id>nexus-releases</id>     
@@ -25,7 +26,7 @@
         <url>http://192.168.50.106:8081/repository/maven-releases/</url>     
     </mirror>
 
-#####在profiles节点里面新建
+##### 在profiles节点里面新建
 
     <profile>
         <id>nexus</id>
@@ -59,14 +60,14 @@
         </pluginRepositories>
     </profile>
 
-#####新增一个activeProfiles节点，该节点和profiles节点一个层次
+##### 新增一个activeProfiles节点，该节点和profiles节点一个层次
 
     <activeProfiles>
         <activeProfile>nexus</activeProfile>
     </activeProfiles>
 以上就是settings.xml配置.
 
-#####开始项目配置,在父pom里面,添加节点,跟dependencies节点平级
+##### 开始项目配置,在父pom里面,添加节点,跟dependencies节点平级
     
     <!--下载-->
     <repositories>
