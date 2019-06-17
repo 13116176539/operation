@@ -1,4 +1,4 @@
-####首先修改本地maven的settings.xml配置,使用maven私有库
+#### 首先修改本地maven的settings.xml配置,使用maven私有库
 
 ##### 在server节点里面添加
     
