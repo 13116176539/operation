@@ -33,7 +33,8 @@ Maven 坐标为Java构件引入了秩序, 任何一个构件都必须明确定�
     </dependency>
 
 其中groupId、artifactId、version可以算作必要三元素了。
- | 元素 | 描述 
+
+ | 元素 | 描述 |
  | ---- | --- |
  | groupId | 定义当前模块隶属的实际Maven项目, 表示方式与Java包类似Maven项目隶属的实际项目，命名方式通常与域名反向一一对应。必须定义。
  |artifactId|实际项目中的一个Maven项目（模块），推荐使用实际项目名称作为artifactId的前缀。必须定义。
