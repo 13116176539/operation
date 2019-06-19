@@ -114,7 +114,8 @@ maven项目使用任何一个构件的方式都是完全相同的，maven可以�
 - 本地仓库的默认目录是：用户名/.m2/repository，如果用户需要自定义的仓库目录，编辑~/.m2/settings.xml，设置localRepository即可。
 - 默认情况下~/.m2/settings.xml是不存在的，用户需要从maven安装目录复制$M2_HOME/conf/settings.xml文件再进行编辑。
 - 一个构件只有在本地仓库中之后，才能由其他maven项目使用。
-  
+  ![本地获取远程jar包](https://github.com/13116176539/operation/blob/master/maven/image/874710-20170703180102050-67112035.png)
+
 **远程仓库**
 - 安装完成maven之后，如果没有执行任何maven命令，本地仓库目录是不存在的。当maven无法从本地仓库中找到需要的构件的时候，就会从远程仓库下载构件至本地仓库。对于maven来说，每个用户只有一个本地仓库，但是可以配置多个远程仓库。
 
@@ -130,6 +131,7 @@ maven项目使用任何一个构件的方式都是完全相同的，maven可以�
     部署第三方构建：特指一些构件不能从远程仓库中获得；
     提供稳定性，增强控制；
     降低中央仓库的负荷；
+    ![maven私服原理图](https://github.com/13116176539/operation/blob/master/maven/image/20160324150326400.png)
 
 ## 4.Maven生命周期
 
