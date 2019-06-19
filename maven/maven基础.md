@@ -135,3 +135,10 @@ maven项目使用任何一个构件的方式都是完全相同的，maven可以�
 
 >[《Maven进阶》1.maven 项目生命周期与构建原理](https://blog.csdn.net/luanlouis/article/details/50492163)
 
+
+### 引用
+>1. [Maven和Gradle，纯干货](https://www.jianshu.com/p/819bcb195b3c)
+>2. [Maven进阶1.maven 项目生命周期与构建原理](https://blog.csdn.net/luanlouis/article/details/50492163)
+>3. [Maven坐标，依赖，仓库](https://blog.csdn.net/clamaa/article/details/70045998)
+>4. [Maven学习七：坐标三元素](https://blog.csdn.net/z69183787/article/details/22296035)
+>5. [Maven 核心原理](https://blog.csdn.net/zjf280441589/article/details/53044308)
