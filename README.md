@@ -1,4 +1,4 @@
-
+<!-- TOC -->autoauto- [1. 运维笔记](#1-运维笔记)auto    - [1.1. 启动kafka2.11-1.1.1.服务](#11-启动kafka211-111服务)auto    - [1.2. 启动jar项目](#12-启动jar项目)auto    - [1.3. 启动zookeeper3.4.10项目](#13-启动zookeeper3410项目)auto    - [1.4. 启动dubbo2.0.6项目](#14-启动dubbo206项目)auto    - [1.5. 启动mongodb3.4.7数据库](#15-启动mongodb347数据库)auto    - [1.6. 启动redis3.0.6数据库](#16-启动redis306数据库)auto    - [1.7. 启动mysql5.7.25数据库](#17-启动mysql5725数据库)autoauto<!-- /TOC -->
 # 运维笔记
 
 
